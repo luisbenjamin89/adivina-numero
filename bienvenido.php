@@ -11,7 +11,7 @@ var_dump($pass);
 
 if(is_null($loggin))
 {
-    $msj="tienes que acceder por autentificacion ";
+    $msj="tienes que acceder por autentcion ";
     header("location:accesos.php?msj=$msj");
     exit();
 }
